@@ -1,18 +1,11 @@
-// pages/_app.js
-
-
 import "../styles/globals.css";
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps, customProp }) {
   // You can wrap your pages with a layout component here
   return (
     <div>
- 
-
-      {/* Render the page component */}
-      <Component {...pageProps} />
-
-    
+      {/* Example of passing a customProp */}
+      <Component {...pageProps} customProp={customProp} />
     </div>
   );
 }
