@@ -51,7 +51,7 @@ const Table = () => {
                 <th className="py-3 px-6 text-left">Title</th>
                 <th className="py-3 px-6 text-left">Address</th>
                 <th className="py-3 px-6 text-left">Phone</th>
-                <th className="py-3 px-6 text-right">Actions</th>
+             
                 
               </tr>
             </thead>
@@ -63,19 +63,7 @@ const Table = () => {
                     <td className="py-3 px-6 text-left">{item.title}</td>
                     <td className="py-3 px-6 text-left">{item.address}</td>
                     <td className="py-3 px-6 text-left">{item.phone}</td>
-                    <td className="py-3 px-6 text-right">
-                      <button
-                        onClick={() => handleDelete(item.id)}
-                        className="mr-2 text-sm bg-red-500 hover:bg-red-600 text-white py-1 px-3 rounded focus:outline-none focus:bg-red-600"
-                      >
-                        Delete
-                      </button>
-                      <button
-                        className="text-sm bg-blue-500 hover:bg-blue-600 text-white py-1 px-3 rounded focus:outline-none focus:bg-blue-600"
-                      >
-                        Update
-                      </button>
-                    </td>
+               
                   </tr>
                 ))
               ) : (
