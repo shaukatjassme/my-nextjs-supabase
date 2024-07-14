@@ -102,7 +102,7 @@ const Card = ({ onSubmit, editItem }) => {
           </button>
 
           <Link href="/table">
-            <button className="mt-2 block w-full px-4 py-2 bg-green-600 text-white rounded-md shadow-md hover:bg-green-700 focus:outline-none focus:bg-red-700">
+            <button className="mt-2 block w-full px-4 py-2 bg-green-600 text-white rounded-md shadow-md hover:bg-green-700 focus:outline-none focus:bg-green-700">
               See Table Data
             </button>
           </Link>
