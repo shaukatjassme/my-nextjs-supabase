@@ -54,7 +54,7 @@ const Home = () => {
       if (error) {
         throw error;
       }
-      await fetchData(); // Fetch updated data after update
+      await fetchData(); 
       setShowAlert(true);
       setEditItem(null);
       setTimeout(() => setShowAlert(false), 3000);
@@ -69,7 +69,7 @@ const Home = () => {
       if (error) {
         throw error;
       }
-      await fetchData(); // Fetch updated data after delete
+      await fetchData(); 
     } catch (error) {
       console.error("Error deleting item:", error);
     }
